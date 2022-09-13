@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/inkelauni/static/css/main.3337fbd7.css",
-    "main.js": "/inkelauni/static/js/main.3a798646.js",
-    "static/js/787.26acb5da.chunk.js": "/inkelauni/static/js/787.26acb5da.chunk.js",
-    "static/media/inke-1.jpg": "/inkelauni/static/media/inke-1.da3c6110091ddff51276.jpg",
-    "static/media/inke-2.jpg": "/inkelauni/static/media/inke-2.1fcb5a8bea7a30f038aa.jpg",
-    "static/media/Kaoly-Regular.ttf": "/inkelauni/static/media/Kaoly-Regular.b3def33739cb4f041498.ttf",
-    "static/media/logo.svg": "/inkelauni/static/media/logo.1901f16bc95b063b562d5e053160da91.svg",
-    "index.html": "/inkelauni/index.html",
-    "main.3337fbd7.css.map": "/inkelauni/static/css/main.3337fbd7.css.map",
-    "main.3a798646.js.map": "/inkelauni/static/js/main.3a798646.js.map",
-    "787.26acb5da.chunk.js.map": "/inkelauni/static/js/787.26acb5da.chunk.js.map"
+    "main.css": "/https//inkelauni.com/static/css/main.260a5737.css",
+    "main.js": "/https//inkelauni.com/static/js/main.1bf93380.js",
+    "static/js/787.26acb5da.chunk.js": "/https//inkelauni.com/static/js/787.26acb5da.chunk.js",
+    "static/media/inke-1.jpg": "/https//inkelauni.com/static/media/inke-1.da3c6110091ddff51276.jpg",
+    "static/media/inke-2.jpg": "/https//inkelauni.com/static/media/inke-2.1fcb5a8bea7a30f038aa.jpg",
+    "static/media/Kaoly-Regular.ttf": "/https//inkelauni.com/static/media/Kaoly-Regular.b3def33739cb4f041498.ttf",
+    "static/media/logo.svg": "/https//inkelauni.com/static/media/logo.1901f16bc95b063b562d5e053160da91.svg",
+    "index.html": "/https//inkelauni.com/index.html",
+    "main.260a5737.css.map": "/https//inkelauni.com/static/css/main.260a5737.css.map",
+    "main.1bf93380.js.map": "/https//inkelauni.com/static/js/main.1bf93380.js.map",
+    "787.26acb5da.chunk.js.map": "/https//inkelauni.com/static/js/787.26acb5da.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3337fbd7.css",
-    "static/js/main.3a798646.js"
+    "static/css/main.260a5737.css",
+    "static/js/main.1bf93380.js"
   ]
 }
