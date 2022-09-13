@@ -1,0 +1,72 @@
+@font-face {
+  font-family: "kaoly";
+  src: url(./assets/Kaoly-Regular.ttf);
+}
+
+h1{
+  font-family: "kaoly";
+}
+
+.App {
+  text-align: center;
+}
+
+.logo {
+  width: 45%;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+p{
+  text-align: justify;
+  font-size: 18px;
+  font-family: 'Pathway Gothic One', sans-serif;
+}
+
+.link{
+  color: #3f68ff;
+}
+
+.footer{
+  background-color: white;
+  width: 100%;
+}
+
+.footer p{
+  color: black;
+  text-align: center;
+}
+
+.App-header {
+  background-color: #0A0A0C;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.about{
+  margin: 24px 20px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
