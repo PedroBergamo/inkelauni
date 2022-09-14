@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/https//inkelauni.com/static/css/main.260a5737.css",
-    "main.js": "/https//inkelauni.com/static/js/main.1bf93380.js",
-    "static/js/787.26acb5da.chunk.js": "/https//inkelauni.com/static/js/787.26acb5da.chunk.js",
-    "static/media/inke-1.jpg": "/https//inkelauni.com/static/media/inke-1.da3c6110091ddff51276.jpg",
-    "static/media/inke-2.jpg": "/https//inkelauni.com/static/media/inke-2.1fcb5a8bea7a30f038aa.jpg",
-    "static/media/Kaoly-Regular.ttf": "/https//inkelauni.com/static/media/Kaoly-Regular.b3def33739cb4f041498.ttf",
-    "static/media/logo.svg": "/https//inkelauni.com/static/media/logo.1901f16bc95b063b562d5e053160da91.svg",
-    "index.html": "/https//inkelauni.com/index.html",
-    "main.260a5737.css.map": "/https//inkelauni.com/static/css/main.260a5737.css.map",
-    "main.1bf93380.js.map": "/https//inkelauni.com/static/js/main.1bf93380.js.map",
-    "787.26acb5da.chunk.js.map": "/https//inkelauni.com/static/js/787.26acb5da.chunk.js.map"
+    "main.css": "/static/css/main.7fb85b3a.css",
+    "main.js": "/static/js/main.393979ee.js",
+    "static/js/787.26acb5da.chunk.js": "/static/js/787.26acb5da.chunk.js",
+    "static/media/inke-1.jpg": "/static/media/inke-1.da3c6110091ddff51276.jpg",
+    "static/media/inke-2.jpg": "/static/media/inke-2.1fcb5a8bea7a30f038aa.jpg",
+    "static/media/Kaoly-Regular.ttf": "/static/media/Kaoly-Regular.b3def33739cb4f041498.ttf",
+    "static/media/logo.svg": "/static/media/logo.1901f16bc95b063b562d5e053160da91.svg",
+    "index.html": "/index.html",
+    "main.7fb85b3a.css.map": "/static/css/main.7fb85b3a.css.map",
+    "main.393979ee.js.map": "/static/js/main.393979ee.js.map",
+    "787.26acb5da.chunk.js.map": "/static/js/787.26acb5da.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.260a5737.css",
-    "static/js/main.1bf93380.js"
+    "static/css/main.7fb85b3a.css",
+    "static/js/main.393979ee.js"
   ]
 }
