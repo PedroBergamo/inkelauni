@@ -5,6 +5,12 @@
 
 h1{
   font-family: "kaoly";
+  font-size: 55px;
+}
+
+h2{
+  font-family: "kaoly";
+  font-size: 24px;
 }
 
 .App {
@@ -12,7 +18,7 @@ h1{
 }
 
 .logo {
-  width: 45%;
+  width: 70%;
   pointer-events: none;
 }
 
@@ -22,24 +28,32 @@ h1{
   }
 }
 
-
 p{
-  text-align: justify;
+  text-align: left;
   font-size: 18px;
-  font-family: 'Pathway Gothic One', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+  line-height: 1.5;
 }
 
 .link{
   color: #3f68ff;
+  font-size: 18px;
+  text-align: center;
 }
 
-.footer{
-  background-color: white;
-  width: 100%;
+a{
+  font-size: 18px;
 }
 
-.footer p{
-  color: black;
+.contact{
+  background-color: #000000;
+  text-align: center;
+  padding: 1% 5%;
+  line-height: 2;
+  color: white;
+}
+
+.contact p{
   text-align: center;
 }
 
@@ -55,7 +69,9 @@ p{
 }
 
 .about{
-  margin: 24px 20px;
+  background-color: #FFFFFF;
+  margin: 0 15%;
+
 }
 
 .App-link {
