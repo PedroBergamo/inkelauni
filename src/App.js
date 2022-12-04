@@ -17,12 +17,10 @@ function App() {
         <img width="100%" src={inke1} alt='inke1'/>
       </header>
       <div className='about'>
-        <h1>About</h1>
+        <h1>BIO</h1>
         <p>
-        Inke Launi on tammikuussa 2022 perustettu helsinkiläinen alternative rock -bändi. Bändin laulaja työsti pitkään kappaleitaan laulaja-lauluntekijä –otteella, mutta kaipasi debyyttisinglensä julkaisun jälkeen rouheampaa soundia ja bändin ympärilleen. Jäsenten valinnassa tärkeäksi tekijäksi nousi yhteinen halu tehdä jotakin erilaista ja riipivää. Vastakohdat täydentävät toisiaan, kun bändin rock-soundi kietoutuu laulajan runollisen tulkinnan ympärille tummia tarinoita kannattelemaan.
-        Yhtyeen esikoisalbumin julkaisu on parhaillaan työn alla. Maailmojen Välissä –esikoisalbumilla käsitellään sisäisen maailman ristiriitoja ja kahtiajakautuneisuutta. Albumi nauhoitettiin lähes kokonaan livenä ja soundimaailmassa pyrittiin palaamaan ajassa taaksepäin. Musiikin luonnolliset vivahteet ja säröt saavat kuulua, mikä tekee albumista rohkean ja erottuvan.
-        Livenä Inke Launi tarjoaa shown, joka vie yleisön riemun ja tuskan rajamaille. Orgaanisessa estetiikassa jokainen elementti merkitsee ja sama raa’an muhkea soundi on läsnä niin livenä kuin levylläkin. Bändin dynamiikkaa on kuvailtu hyvin erityiseksi ja kappaleita luonnehdittu traagisen jylhiksi. Inke Launin musiikki on spirituaalinen kokemus, joka todella pysäyttää hetken.
-        </p>
+        Inke Launi on alternative rock -bändi melankolisille sieluille, jotka kaipaavat orgaanista soundia ja omaperäisyyttä. Yhtyeen runolliset tekstit ja jylhän traagiset kappaleet luovat tilan suurien tunteiden kokemiseen. Inke Launi keinuttelee kummittelevan tunnelman, sensitiivisen ilmaisun sekä räjähtävän energian välillä, ja luottaa tummanpuhuvan mystiseen estetiikkaan.
+Helsinkiläinen yhtye sai alkunsa tammikuussa 2022, kun laulaja-lauluntekijänä debyyttisinglensä julkaissut Launimaa halusi viedä musiikkiaan rouheampaan suuntaan. Launimaa keräsi ympärilleen persoonallisia ja luovia muusikoita, joiden esteettinen näkemys eroaa valtavirrasta. Yhtye julkaisee helmikuussa 2023 esikoisalbuminsa Maailmojen välissä, joka käsittelee mielen kahtiajakautuneisuutta peilaten tunteita luonnon ilmiöihin. Albumi nauhoitettiin pääosin livenä ja soundimaailmassa pyrittiin palaamaan ajassa taaksepäin. Hiomaton estetiikka tekee albumista tämän hetken musiikkimarkkinoilla rohkean ja erottuvan.</p>
         <h2>
         KOKOONPANO
         </h2>
@@ -48,10 +46,10 @@ function App() {
         <h1>Contact</h1>
         <Social/>
         <p>inkelauni@gmail.com</p>
-
-          <p>Website designed and developed by
+        <p>Web design by
           <a className="link" href={pedroSite}
-            target="_blank" rel="noreferrer"> Pedro Bergamo</a>    </p>
+            target="_blank" rel="noreferrer"> Bergamo Creations</a>
+        </p>
       </div>
 
     </div>
