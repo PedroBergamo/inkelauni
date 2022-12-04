@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.236dac02.css",
-    "main.js": "/static/js/main.9db4a2cb.js",
+    "main.css": "/static/css/main.32296a4d.css",
+    "main.js": "/static/js/main.5073a673.js",
     "static/js/787.26acb5da.chunk.js": "/static/js/787.26acb5da.chunk.js",
+    "static/media/splash.png": "/static/media/splash.a41ec7a0f189381c86ca.png",
     "static/media/inke-2-opt.jpg": "/static/media/inke-2-opt.e2c83b1c43549f4fb38e.jpg",
-    "static/media/inke-1-opt.jpg": "/static/media/inke-1-opt.3d1e84bbcc44de1c156a.jpg",
     "static/media/Kaoly-Regular.ttf": "/static/media/Kaoly-Regular.b3def33739cb4f041498.ttf",
     "static/media/logo.svg": "/static/media/logo.1901f16bc95b063b562d5e053160da91.svg",
     "index.html": "/index.html",
-    "main.236dac02.css.map": "/static/css/main.236dac02.css.map",
-    "main.9db4a2cb.js.map": "/static/js/main.9db4a2cb.js.map",
+    "main.32296a4d.css.map": "/static/css/main.32296a4d.css.map",
+    "main.5073a673.js.map": "/static/js/main.5073a673.js.map",
     "787.26acb5da.chunk.js.map": "/static/js/787.26acb5da.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.236dac02.css",
-    "static/js/main.9db4a2cb.js"
+    "static/css/main.32296a4d.css",
+    "static/js/main.5073a673.js"
   ]
 }
