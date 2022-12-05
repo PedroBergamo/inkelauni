@@ -1,4 +1,5 @@
 import inke2 from './images/inke-2-opt.jpg';
+import Splash from "./images/splash.png";
 import './App.css';
 import {Container, Row,Col} from 'react-bootstrap';
 
@@ -7,19 +8,20 @@ var pedroSite = "https://bergamocreations.com/";
 
 function App() {
   return (
-    <Container className="App">
-      <Row >
-        <Col xs={12} md={2} className="col">
-        <div className="splash">
-          <iframe title="spotify" className="spotify"
-          src="https://open.spotify.com/embed/track/2vKGiRjAUlYtcjeCgXRspC?utm_source=generator&theme=0"
-          width="100%" height="152" frameBorder="0"
-          allow="autoplay; clipboard-write; encrypted-media; picture-in-picture"
-          loading="lazy"></iframe>
-        </div>
+      <div className="App">
+      <Container>
+        <Row>
+        <Col xs={12} md={4} className="col">
+        <img width="100%" src={Splash} alt='inke1'/>
+        <iframe title="spotify" className="spotify"
+        src="https://open.spotify.com/embed/track/2vKGiRjAUlYtcjeCgXRspC?utm_source=generator&theme=0"
+        width="100%" height="152" frameBorder="0"
+        allow="autoplay; clipboard-write; encrypted-media; picture-in-picture"
+        loading="lazy"></iframe>
+
         </Col>
 
-        <Col xs={12} md={10} className="col">
+        <Col md={8}>
         <div className='about'>
           <h1>BIO</h1>
           <p>
@@ -42,32 +44,39 @@ function App() {
         </div>
         </Col>
 
-      </Row>
-      <Row>
-        <Col className="col">
-        <div className="contact">
-          <h2>Yhteystiedot</h2>
-          <p>inkelauni@gmail.com</p>
-          <Social/>
-          <h2>Tiedotus ja haastattelupyynnöt:</h2>
-          <p>
-          Juha Juoni / PressHopper<br/>
-          juha.juoni@presshopper.fi<br/>
-          www.presshopper.fi<br/>
-          </p>
-        </div>
+
+
+
+
+        </Row>
+      </Container>
         <div className="footer">
-        <p>Web design & dev. <br/>
-        by
+          <Container>
+            <Row>
+            <Col>
+              <h2>Yhteystiedot</h2>
+              <p>inkelauni@gmail.com</p>
+              <Social/>
+            </Col>
+
+            <Col>
+              <h2>Tiedotus ja haastattelupyynnöt:</h2>
+              <p>
+              Juha Juoni / PressHopper<br/>
+              juha.juoni@presshopper.fi<br/>
+              www.presshopper.fi<br/>
+            </p>
+            </Col>
+
+            </Row>
+
+          </Container>
+          <h2>Web design & development by
           <a className="link" href={pedroSite}
-            target="_blank" rel="noreferrer"> Bergamo Creations</a>
-        </p>
+          target="_blank" rel="noreferrer"> Bergamo Creations</a></h2>
         </div>
-        </Col>
 
-      </Row>
-    </Container>
-
+  </div>
   );
 }
 

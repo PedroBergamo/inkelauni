@@ -6,16 +6,21 @@
 h1{
   font-family: "kaoly";
   font-size: 55px;
+  color: #ffffff
 }
 
 h2{
   font-family: "kaoly";
   font-size: 24px;
+  color: #ffffff;
+  padding: 1rem;
 }
 
 .App {
   text-align: center;
-  background-color: #fff4e7;
+  background-color: #0a0a0c;
+  width: 100%;
+  margin:0;
 }
 
 .col{
@@ -36,9 +41,11 @@ h2{
 
 p{
   text-align: left;
-  font-size: 18px;
+  font-size: 14px;
   font-family: 'Ubuntu', sans-serif;
   line-height: 1.5;
+  color: #ffffff
+
 }
 
 .link{
@@ -51,15 +58,14 @@ a{
   font-size: 18px;
 }
 
-.contact{
-  background-color: #000000;
+.footer{
   text-align: center;
   padding: 5% 10%;
   line-height: 2;
   color: white;
 }
 
-.contact p{
+.footer p{
   text-align: center;
 }
 
@@ -75,7 +81,7 @@ a{
 }
 
 .about{
-  background-color: #fff4e7;
+  background-color: #0a0a0c;
   margin: 5% 10%;
 }
 
@@ -84,7 +90,6 @@ a{
 }
 
 .splash{
-  background-image: url("./images/splash.png");
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -93,17 +98,9 @@ a{
   }
 
 .social-media{
-  margin: 1000px;
+  text-align: center;
 }
 
-.footer{
-  background-color: #82cc9d;
-}
-
-.footer p{
-    text-align: center;
-    margin: auto;
-}
 .spotify{
   position: absolute;
   display: flex;
