@@ -1,5 +1,3 @@
-import logo from './logo.svg';
-import splash from './images/splash.png';
 import inke2 from './images/inke-2-opt.jpg';
 import './App.css';
 import {Container, Row,Col} from 'react-bootstrap';
@@ -13,7 +11,7 @@ function App() {
       <Row >
         <Col xs={12} md={2} className="col">
         <div className="splash">
-          <iframe className="spotify"
+          <iframe title="spotify" className="spotify"
           src="https://open.spotify.com/embed/track/2vKGiRjAUlYtcjeCgXRspC?utm_source=generator&theme=0"
           width="100%" height="152" frameBorder="0"
           allow="autoplay; clipboard-write; encrypted-media; picture-in-picture"
