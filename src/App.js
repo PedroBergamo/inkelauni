@@ -1,5 +1,5 @@
 import inke2 from './images/inke-2-opt.jpg';
-import Splash from "./images/splash.png";
+import Splash from "./images/splash3-bw.png";
 import './App.css';
 import {Container, Row,Col} from 'react-bootstrap';
 

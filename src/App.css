@@ -45,12 +45,11 @@ p{
   font-family: 'Ubuntu', sans-serif;
   line-height: 1.5;
   color: #ffffff
-
 }
 
 .link{
-  color: #c85702;
-  text-align: center;
+  text-decoration: underline;
+  color: #ffffff;
 }
 
 .footer{
