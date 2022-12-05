@@ -7,17 +7,17 @@ const navObj = {
         fontSize: '1.4em'
     },
     linkStyle: {
-      marginLeft: "60px",
       color: "#FFFFFF",
-      textAlign: "center"
+      textAlign: "right",
+      display: "flex"
     }
 };
 
 export default class SocialMedia extends React.Component {
     render() {
         return (
-          <div>
-          <Nav>
+          <div className="social-media">
+          <Nav className="Nav">
           <Nav.Link
               href="https://www.instagram.com/inkelauni"
               target="_blank"

@@ -18,7 +18,7 @@ h2{
 
 .App {
   text-align: center;
-  background-color: #0a0a0c;
+  background-color: #040500;
   width: 100%;
   margin:0;
 }
@@ -41,7 +41,7 @@ h2{
 
 p{
   text-align: left;
-  font-size: 14px;
+  font-size: 15px;
   font-family: 'Ubuntu', sans-serif;
   line-height: 1.5;
   color: #ffffff
@@ -49,13 +49,8 @@ p{
 }
 
 .link{
-  color: #3f68ff;
-  font-size: 18px;
+  color: #c85702;
   text-align: center;
-}
-
-a{
-  font-size: 18px;
 }
 
 .footer{
@@ -70,7 +65,6 @@ a{
 }
 
 .App-header {
-  background-color: #0A0A0C;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -81,7 +75,6 @@ a{
 }
 
 .about{
-  background-color: #0a0a0c;
   margin: 5% 10%;
 }
 
@@ -89,6 +82,10 @@ a{
   color: #61dafb;
 }
 
+.nav {
+  justify-content: center;
+
+}
 .splash{
   background-position: top;
   background-repeat: no-repeat;
@@ -98,7 +95,8 @@ a{
   }
 
 .social-media{
-  text-align: center;
+  text-align: right;
+  margin: 1000;
 }
 
 .spotify{
