@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/static/css/main.f8fa690e.css",
-    "main.js": "/static/js/main.aab54b6e.js",
+    "main.js": "/static/js/main.92bf82c6.js",
     "static/js/787.26acb5da.chunk.js": "/static/js/787.26acb5da.chunk.js",
     "static/media/inke-2-opt.jpg": "/static/media/inke-2-opt.e2c83b1c43549f4fb38e.jpg",
     "static/media/splash3-bw.png": "/static/media/splash3-bw.ff98f75ef09656f16c91.png",
     "static/media/Kaoly-Regular.ttf": "/static/media/Kaoly-Regular.b3def33739cb4f041498.ttf",
     "index.html": "/index.html",
     "main.f8fa690e.css.map": "/static/css/main.f8fa690e.css.map",
-    "main.aab54b6e.js.map": "/static/js/main.aab54b6e.js.map",
+    "main.92bf82c6.js.map": "/static/js/main.92bf82c6.js.map",
     "787.26acb5da.chunk.js.map": "/static/js/787.26acb5da.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f8fa690e.css",
-    "static/js/main.aab54b6e.js"
+    "static/js/main.92bf82c6.js"
   ]
 }
