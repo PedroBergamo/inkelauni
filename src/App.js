@@ -14,7 +14,7 @@ function App() {
         <Col xs={12} md={4} className="col">
         <img width="100%" src={Splash} alt='inke1'/>
         <iframe title="spotify" className="spotify"
-        src="https://open.spotify.com/embed/track/2vKGiRjAUlYtcjeCgXRspC?utm_source=generator&theme=0"
+        src="https://open.spotify.com/embed/track/67WNo0w28KmkzBwIUlbIb1?utm_source=generator&theme=0"
         width="100%" height="152" frameBorder="0"
         allow="autoplay; clipboard-write; encrypted-media; picture-in-picture"
         loading="lazy"></iframe>
