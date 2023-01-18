@@ -8,6 +8,9 @@
   font-family: "kaoly";
   src: url(./assets/Kaoly-Regular.ttf);
 }
+.container{
+  padding: 5%;
+}
 
 h1{
   font-family: "kaoly";
@@ -50,7 +53,7 @@ p{
   font-size: 15px;
   font-family: 'Ubuntu', sans-serif;
   line-height: 1.5;
-  color: #ffffff
+  color: #ffffff;
 }
 
 .link{
@@ -59,14 +62,20 @@ p{
 }
 
 .footer{
+  background-color: white;
   text-align: center;
   padding: 5% 10%;
   line-height: 2;
   color: white;
 }
 
-.footer p{
+.footer p,h2,.link{
   text-align: center;
+}
+
+.info p, h2 {
+  text-align: center;
+  color: white;
 }
 
 .App-header {
@@ -141,7 +150,6 @@ button {
 }
 
 .spotify{
-  position: absolute;
   display: flex;
   bottom: 0;
   border-radius:12px;

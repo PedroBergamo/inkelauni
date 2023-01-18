@@ -1,5 +1,4 @@
 import inke2 from './images/inke-2-opt.jpg';
-import Splash from "./images/splash3-bw.png";
 import './App.css';
 import {Container, Row,Col} from 'react-bootstrap';
 import SplashVideo from "./Resources/splash-video.mp4";
@@ -16,24 +15,15 @@ function App() {
           </video>
           <div className="video-button">
           <h1>Virta</h1>
-        <a href={YouTube}>
+        <a href={YouTube} target= "_blank">
           <button type="button">Katso nyt</button>
         </a>
         </div>
       </div>
-      <Container>
+
+      <Container className="container">
         <Row>
-        <Col xs={12} md={4} className="col">
-
-        <iframe title="spotify" className="spotify"
-        src="https://open.spotify.com/embed/track/67WNo0w28KmkzBwIUlbIb1?utm_source=generator&theme=0"
-        width="100%" height="152" frameBorder="0"
-        allow="autoplay; clipboard-write; encrypted-media; picture-in-picture"
-        loading="lazy"></iframe>
-
-        </Col>
-
-        <Col md={8}>
+        <Col xs={12} lg={8} className="col">
         <div className='about'>
           <h1>BIO</h1>
           <p>
@@ -42,46 +32,52 @@ function App() {
           <h2>
           KOKOONPANO
           </h2>
-          <p>
+          <p style={{textAlign: 'center'}}>
           Elina Launimaa – laulu<br/>
           Pedro Bergamo – sähkökitara <br/>
           Nuutti Autio – basso<br/>
           Niilo Suihko – rummut<br/>
           </p>
-
-          <img width="100%" src={inke2} alt='inke1'/>
-          <p style={{textAlign: 'center'}}> Lataa<a className="link"
-          download="inke-launi.png" href={inke2} rel="noreferrer"
-          target="_blank" > valokuva</a>.</p>
         </div>
         </Col>
 
+        <Col xs={12} lg={4} style={{padding: '2rem'}}>
+        <img width="100%" src={inke2} alt='inke1'/>
+        <p style={{textAlign: 'center'}}> Lataa<a className="link"
+        download="inke-launi.png" href={inke2} rel="noreferrer"
+        target="_blank" > valokuva</a>.</p>
+
+        <iframe title="spotify" className="spotify"
+        src="https://open.spotify.com/embed/track/67WNo0w28KmkzBwIUlbIb1?utm_source=generator&theme=0"
+        width="100%" height="152" frameBorder="0"
+        allow="autoplay; clipboard-write; encrypted-media; picture-in-picture"
+        loading="lazy"></iframe>
+        </Col>
         </Row>
+
+        <Row className="info">
+        <Col xs={12} lg={6}>
+          <h2>Yhteystiedot</h2>
+          <p>inkelauni@gmail.com</p>
+          <Social/>
+        </Col>
+
+        <Col xs={12} lg={6}>
+          <h2>Tiedotus ja haastattelupyynnöt:</h2>
+          <p>
+          Juha Juoni / PressHopper<br/>
+          juha.juoni@presshopper.fi<br/>
+          www.presshopper.fi<br/>
+        </p>
+        </Col>
+
+        </Row>
+
       </Container>
         <div className="footer">
-          <Container>
-            <Row>
-            <Col>
-              <h2>Yhteystiedot</h2>
-              <p>inkelauni@gmail.com</p>
-              <Social/>
-            </Col>
-
-            <Col>
-              <h2>Tiedotus ja haastattelupyynnöt:</h2>
-              <p>
-              Juha Juoni / PressHopper<br/>
-              juha.juoni@presshopper.fi<br/>
-              www.presshopper.fi<br/>
-            </p>
-            </Col>
-
-            </Row>
-
-          </Container>
-          <h2>Web design & development by
+          <h2 style={{color: 'black'}}>Web design & development by
           <a className="link" href={pedroSite}
-          target="_blank" rel="noreferrer"> Bergamo Creations</a></h2>
+          target="_blank" rel="noreferrer" style={{color: 'black'}}> Bergamo Creations</a></h2>
         </div>
 
   </div>
