@@ -23,11 +23,8 @@ function App() {
           <img src={Logo} width="50%" alt=""/>
         </div>
 
-        <div className="virta-logo">
-          <img src={virta} width="50%" alt=""/>
-        </div>
-
           <div className="video-button">
+          <img src={virta} width="50%" alt=""/>
               <a href={YouTube} target= "_blank" rel="noreferrer">
               <button type="button">Katso nyt</button>  </a>
 
