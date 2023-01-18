@@ -34,16 +34,14 @@ h3{
   font-family: "kaoly";
   font-size: 16px;
   color: #ffffff;
+  padding: 1rem;
 }
 
 .App {
   text-align: center;
-  background-color: #040500;
-}
-
-.col{
-  padding: 0;
-  text-align: center;
+  background-image: url("./images/virta-background.jpg");
+  background-position: center;
+  background-size:cover;
 }
 
 .logo {
@@ -54,7 +52,7 @@ h3{
 
 p{
   text-align: left;
-  font-size: 15px;
+  font-size: 16px;
   font-family: 'Ubuntu', sans-serif;
   line-height: 1.5;
   color: #ffffff;
@@ -67,7 +65,7 @@ p{
 }
 
 .footer{
-  background-color: white;
+  background-image: url("./images/virta-background-white.jpg");
   text-align: center;
   padding: 5% 10%;
   color: white;
@@ -87,6 +85,11 @@ p{
   text-align: center;
   margin: 0;
   padding: 0;
+}
+
+.keikat .row{
+  padding: 1rem;
+
 }
 
 .App-header {
@@ -116,7 +119,7 @@ p{
   background-image: url("./Resources/virta-splash.jpg");
   background-position: center;
   width: 100%;
-  height: 925px;
+  height: 995px;
 
   position: relative;
   object-fit: cover;

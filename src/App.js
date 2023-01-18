@@ -27,11 +27,11 @@ function App() {
           <img src={virta} width="50%" alt=""/>
               <a href={YouTube} target= "_blank" rel="noreferrer">
               <button type="button">Katso nyt</button>  </a>
-
         </div>
       </div>
 
-      <Container className="keikat">
+      <Container className="container">
+        <div className="keikat">
         <h1>Keikat</h1>
         <Row>
           <Col>
@@ -74,20 +74,14 @@ function App() {
           </Col>
         </Row>
         <Row className="info">
-        <Col xs={12} lg={6}>
-
-        </Col>
-
-
         </Row>
-      </Container>
 
-      <Container className="container">
+        </div>
         <Row>
         <Col xs={12} lg={8} className="col">
         <div className='about'>
           <h1>BIO</h1>
-          <p>
+          <p style={{textAlign: 'left'}}>
           Inke Launi on alternative rock -bändi melankolisille sieluille, jotka kaipaavat orgaanista soundia ja omaperäisyyttä. Yhtyeen runolliset tekstit ja jylhän traagiset kappaleet luovat tilan suurien tunteiden kokemiseen. Inke Launi keinuttelee kummittelevan tunnelman, sensitiivisen ilmaisun sekä räjähtävän energian välillä, ja luottaa tummanpuhuvan mystiseen estetiikkaan.
           Helsinkiläinen yhtye sai alkunsa tammikuussa 2022, kun laulaja-lauluntekijänä debyyttisinglensä julkaissut Launimaa halusi viedä musiikkiaan rouheampaan suuntaan. Launimaa keräsi ympärilleen persoonallisia ja luovia muusikoita, joiden esteettinen näkemys eroaa valtavirrasta. Yhtye julkaisee helmikuussa 2023 esikoisalbuminsa Maailmojen välissä, joka käsittelee mielen kahtiajakautuneisuutta peilaten tunteita luonnon ilmiöihin. Albumi nauhoitettiin pääosin livenä ja soundimaailmassa pyrittiin palaamaan ajassa taaksepäin. Hiomaton estetiikka tekee albumista tämän hetken musiikkimarkkinoilla rohkean ja erottuvan.</p>
           <h2>
@@ -102,13 +96,13 @@ function App() {
         </div>
         </Col>
 
-        <Col xs={12} lg={4} style={{padding: '2rem'}}>
-        <img width="100%" src={inke2} alt='inke1'/>
+        <Col xs={12} lg={4} >
+        <img style={{padding: '1rem'}} width="100%" src={inke2} alt='inke1'/>
         <p style={{textAlign: 'center'}}> Lataa<a className="link"
         download="inke-launi.png" href={inkeBig} rel="noreferrer"
         target="_blank" > valokuva</a>.</p>
 
-        <iframe title="spotify" className="spotify"
+        <iframe style={{margin: '2rem 0'}} title="spotify" className="spotify"
         src="https://open.spotify.com/embed/track/67WNo0w28KmkzBwIUlbIb1?utm_source=generator&theme=0"
         width="100%" height="152" frameBorder="0"
         allow="autoplay; clipboard-write; encrypted-media; picture-in-picture"
