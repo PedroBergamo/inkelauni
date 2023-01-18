@@ -9,7 +9,7 @@
   src: url(./assets/Kaoly-Regular.ttf);
 }
 .container{
-  padding: 5%;
+  padding: 2%;
 }
 
 h1{
@@ -119,11 +119,6 @@ p{
   width: 100%;
 }
 
-.social-media{
-  text-align: right;
-  margin: 1000;
-}
-
 .splash-video{
   background-image: url("./Resources/virta-splash.jpg");
   background-position: center;
@@ -135,6 +130,12 @@ p{
   display: flex;
   align-items: center;
   vertical-align: middle;
+}
+
+.virta-logo{
+  width: 500px;
+  position: absolute;
+
 }
 
 button {
@@ -158,19 +159,11 @@ button {
 .video-button {
   position: absolute;
   text-align: center;
+  margin-top: 40%;
 }
 
 .spotify{
   display: flex;
   bottom: 0;
   border-radius:12px;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
