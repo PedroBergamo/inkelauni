@@ -14,6 +14,7 @@ function App() {
   return (
       <div className="App">
         <div className="splash-video">
+
         <video className="splash-video" autoPlay loop muted>
           <source src={SplashVideo} type="video/mp4"/>
         </video>
@@ -24,13 +25,12 @@ function App() {
 
         <div className="virta-logo">
           <img src={virta} width="50%" alt=""/>
-
         </div>
 
           <div className="video-button">
-              <a href={YouTube} target= "_blank">
+              <a href={YouTube} target= "_blank" rel="noreferrer">
               <button type="button">Katso nyt</button>  </a>
-              
+
         </div>
       </div>
 
