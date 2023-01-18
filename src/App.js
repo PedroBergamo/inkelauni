@@ -29,8 +29,8 @@ function App() {
 
           <div className="video-button">
               <a href={YouTube} target= "_blank">
-              <button type="button">Katso nyt</button>
-            </a>
+              <button type="button">Katso nyt</button>  </a>
+              
         </div>
       </div>
 
@@ -129,9 +129,10 @@ function App() {
         <div className="footer">
           <h3 style={{color: 'black'}}>inkelauni@gmail.com</h3>
           <Social/>
-          <h3 style={{color: 'black'}}>Web design & development by
+          <p style={{color: 'black'}}>Suunnitellut ja kehittänyt
           <a className="link" href={pedroSite}
-          target="_blank" rel="noreferrer" style={{color: 'black'}}> Bergamo Creations</a></h3>
+          target="_blank" rel="noreferrer" style={{color: 'black'}}> Bergamo Creations</a></p>
+          <p style={{color: 'black'}}>©️ 2023 Inke Launi</p>
         </div>
 
   </div>

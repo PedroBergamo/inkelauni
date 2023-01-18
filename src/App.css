@@ -69,13 +69,12 @@ p{
   background-color: white;
   text-align: center;
   padding: 5% 10%;
-  line-height: 2;
   color: white;
 }
 
 .footer p,h2,.link{
   text-align: center;
-
+  padding: 2%;
 }
 
 .info p, h2 {
@@ -140,14 +139,14 @@ p{
 
 button {
   display: inline-block;
-  background-color: var(--launi_gray);
+  background-color: black;
   border-radius: 100px;
   color: #eeeeee;
   text-align: center;
   font-size: 14px;
   text-transform: uppercase;
-  padding: 20px;
-  width: 150px;
+  padding: 10px;
+  width: 110px;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   -o-transition: all 0.5s;
@@ -156,10 +155,14 @@ button {
   margin: 5px;
 }
 
+button:hover{
+  background-color: var(--launi_blue);
+}
+
 .video-button {
   position: absolute;
   text-align: center;
-  margin-top: 40%;
+  margin-bottom: -30%;
 }
 
 .spotify{
