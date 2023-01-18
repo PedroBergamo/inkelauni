@@ -84,15 +84,7 @@ function App() {
           <p style={{textAlign: 'left'}}>
           Inke Launi on alternative rock -bändi melankolisille sieluille, jotka kaipaavat orgaanista soundia ja omaperäisyyttä. Yhtyeen runolliset tekstit ja jylhän traagiset kappaleet luovat tilan suurien tunteiden kokemiseen. Inke Launi keinuttelee kummittelevan tunnelman, sensitiivisen ilmaisun sekä räjähtävän energian välillä, ja luottaa tummanpuhuvan mystiseen estetiikkaan.
           Helsinkiläinen yhtye sai alkunsa tammikuussa 2022, kun laulaja-lauluntekijänä debyyttisinglensä julkaissut Launimaa halusi viedä musiikkiaan rouheampaan suuntaan. Launimaa keräsi ympärilleen persoonallisia ja luovia muusikoita, joiden esteettinen näkemys eroaa valtavirrasta. Yhtye julkaisee helmikuussa 2023 esikoisalbuminsa Maailmojen välissä, joka käsittelee mielen kahtiajakautuneisuutta peilaten tunteita luonnon ilmiöihin. Albumi nauhoitettiin pääosin livenä ja soundimaailmassa pyrittiin palaamaan ajassa taaksepäin. Hiomaton estetiikka tekee albumista tämän hetken musiikkimarkkinoilla rohkean ja erottuvan.</p>
-          <h2>
-          KOKOONPANO
-          </h2>
-          <p style={{textAlign: 'center'}}>
-          Elina Launimaa – laulu<br/>
-          Pedro Bergamo – sähkökitara <br/>
-          Nuutti Autio – basso<br/>
-          Niilo Suihko – rummut<br/>
-          </p>
+
         </div>
         </Col>
 
@@ -100,32 +92,42 @@ function App() {
         <img style={{padding: '1rem'}} width="100%" src={inke2} alt='inke1'/>
         <p style={{textAlign: 'center'}}> Lataa<a className="link"
         download="inke-launi.png" href={inkeBig} rel="noreferrer"
-        target="_blank" > valokuva</a>.</p>
-
-        <iframe style={{margin: '2rem 0'}} title="spotify" className="spotify"
-        src="https://open.spotify.com/embed/track/67WNo0w28KmkzBwIUlbIb1?utm_source=generator&theme=0"
-        width="100%" height="152" frameBorder="0"
-        allow="autoplay; clipboard-write; encrypted-media; picture-in-picture"
-        loading="lazy"></iframe>
-        <h2>Tiedotus ja haastattelupyynnöt:</h2>
+        target="_blank" >valokuva.</a></p>
+        <h2>
+        KOKOONPANO
+        </h2>
         <p style={{textAlign: 'center'}}>
-          Juha Juoni / PressHopper<br/>
-          juha.juoni@presshopper.fi<br/>
-          www.presshopper.fi<br/>
+        Elina Launimaa – laulu<br/>
+        Pedro Bergamo – sähkökitara <br/>
+        Nuutti Autio – basso<br/>
+        Niilo Suihko – rummut<br/>
         </p>
         </Col>
         </Row>
       </Container>
 
-        <div className="footer">
+        <Container className="footer">
+          <Row>
+          <Col>
+          <h2 style={{color: 'black'}}>Tiedotus ja haastattelupyynnöt:</h2>
+          <p style={{textAlign: 'center'}}>
+            Juha Juoni / PressHopper<br/>
+            juha.juoni@presshopper.fi<br/>
+            www.presshopper.fi<br/>
+          </p>
+          </Col>
+          <Col>
+          <h2 style={{color: 'black'}}>Yhteystiedot</h2>
           <h3 style={{color: 'black'}}>inkelauni@gmail.com</h3>
           <Social/>
-          <p style={{color: 'black'}}>Suunnitellut ja kehittänyt
-          <a className="link" href={pedroSite}
-          target="_blank" rel="noreferrer" style={{color: 'black'}}> Bergamo Creations</a></p>
-          <p style={{color: 'black'}}>©️ 2023 Inke Launi</p>
-        </div>
 
+          <p style={{color: 'black'}}>©️ 2023 Inke Launi | Suunnitellut ja kehittänyt
+          <a className="link" href={pedroSite}
+          target="_blank" rel="noreferrer" style={{color: 'black'}}>Bergamo Creations</a></p>
+          </Col>
+      </Row>
+
+        </Container>
   </div>
   );
 }
