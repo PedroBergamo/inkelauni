@@ -2,17 +2,29 @@ import inke2 from './images/inke-2-opt.jpg';
 import Splash from "./images/splash3-bw.png";
 import './App.css';
 import {Container, Row,Col} from 'react-bootstrap';
-
+import SplashVideo from "./Resources/splash-video.mp4";
 import Social from "./components/socialmedia.js";
 var pedroSite = "https://bergamocreations.com/";
+var YouTube = "https://www.youtube.com/watch?v=519_RdUYz_A";
 
 function App() {
   return (
       <div className="App">
+      <div className="splash-video">
+        <video className="splash-video" autoPlay loop muted>
+          <source src={SplashVideo} type="video/mp4"/>
+          </video>
+          <div className="video-button">
+          <h1>Virta</h1>
+        <a href={YouTube}>
+          <button type="button">Katso nyt</button>
+        </a>
+        </div>
+      </div>
       <Container>
         <Row>
         <Col xs={12} md={4} className="col">
-        <img width="100%" src={Splash} alt='inke1'/>
+
         <iframe title="spotify" className="spotify"
         src="https://open.spotify.com/embed/track/67WNo0w28KmkzBwIUlbIb1?utm_source=generator&theme=0"
         width="100%" height="152" frameBorder="0"
@@ -43,10 +55,6 @@ function App() {
           target="_blank" > valokuva</a>.</p>
         </div>
         </Col>
-
-
-
-
 
         </Row>
       </Container>
