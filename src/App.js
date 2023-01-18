@@ -24,9 +24,9 @@ function App() {
         </div>
 
           <div className="video-button">
-          <img src={virta} width="50%" alt=""/>
-              <a href={YouTube} target= "_blank" rel="noreferrer">
-              <button type="button">Katso nyt</button>  </a>
+       <img src={virta} width="50%" alt=""/>
+      <h2 style={{textAlign:"center"}}>20.01.23</h2>
+
         </div>
       </div>
 
