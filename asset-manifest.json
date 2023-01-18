@@ -1,18 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.f8fa690e.css",
-    "main.js": "/static/js/main.92bf82c6.js",
+    "main.css": "/static/css/main.e88b4229.css",
+    "main.js": "/static/js/main.bcfd9b9a.js",
     "static/js/787.26acb5da.chunk.js": "/static/js/787.26acb5da.chunk.js",
-    "static/media/inke-2-opt.jpg": "/static/media/inke-2-opt.e2c83b1c43549f4fb38e.jpg",
-    "static/media/splash3-bw.png": "/static/media/splash3-bw.ff98f75ef09656f16c91.png",
+    "static/media/splash-video.mp4": "/static/media/splash-video.445bf54bb77b54d10d84.mp4",
+    "static/media/inke-1-opt.jpg": "/static/media/inke-1-opt.bbd9d1eb38215dfddc34.jpg",
+    "static/media/virta-splash.jpg": "/static/media/virta-splash.10bf9c2862d49d2573ad.jpg",
     "static/media/Kaoly-Regular.ttf": "/static/media/Kaoly-Regular.b3def33739cb4f041498.ttf",
+    "static/media/virta-logo.png": "/static/media/virta-logo.e7587934a57baf96ae61.png",
+    "static/media/logo.svg": "/static/media/logo.1901f16bc95b063b562d5e053160da91.svg",
     "index.html": "/index.html",
-    "main.f8fa690e.css.map": "/static/css/main.f8fa690e.css.map",
-    "main.92bf82c6.js.map": "/static/js/main.92bf82c6.js.map",
+    "main.e88b4229.css.map": "/static/css/main.e88b4229.css.map",
+    "main.bcfd9b9a.js.map": "/static/js/main.bcfd9b9a.js.map",
     "787.26acb5da.chunk.js.map": "/static/js/787.26acb5da.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f8fa690e.css",
-    "static/js/main.92bf82c6.js"
+    "static/css/main.e88b4229.css",
+    "static/js/main.bcfd9b9a.js"
   ]
 }
