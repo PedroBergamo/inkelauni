@@ -3,21 +3,29 @@ import './App.css';
 import {Container, Row,Col} from 'react-bootstrap';
 import SplashVideo from "./Resources/splash-video.mp4";
 import Social from "./components/socialmedia.js";
+import Logo from "./Resources/logo.svg";
+
+import virta from "./images/virta-logo.png";
 var pedroSite = "https://bergamocreations.com/";
 var YouTube = "https://www.youtube.com/watch?v=519_RdUYz_A";
 
 function App() {
   return (
       <div className="App">
-      <div className="splash-video">
+        <div className="splash-video">
         <video className="splash-video" autoPlay loop muted>
           <source src={SplashVideo} type="video/mp4"/>
-          </video>
+        </video>
+
+        <div className="logo">
+          <img src={Logo} width="50%" alt=""/>
+        </div>
+
           <div className="video-button">
-          <h1>Virta</h1>
-        <a href={YouTube} target= "_blank">
-          <button type="button">Katso nyt</button>
-        </a>
+              <img src={virta} width="50%" className="virta-logo" alt=""/>
+            <a href={YouTube} target= "_blank">
+              <button type="button">Katso nyt</button>
+            </a>
         </div>
       </div>
 
@@ -53,15 +61,6 @@ function App() {
         allow="autoplay; clipboard-write; encrypted-media; picture-in-picture"
         loading="lazy"></iframe>
         </Col>
-        </Row>
-
-        <Row className="info">
-        <Col xs={12} lg={6}>
-          <h2>Yhteystiedot</h2>
-          <p>inkelauni@gmail.com</p>
-          <Social/>
-        </Col>
-
         <Col xs={12} lg={6}>
           <h2>Tiedotus ja haastattelupyynnöt:</h2>
           <p>
@@ -70,14 +69,67 @@ function App() {
           www.presshopper.fi<br/>
         </p>
         </Col>
-
         </Row>
 
+
+        <h1>Keikat</h1>
+      </Container>
+      <Container className="keikat">
+        <Row>
+          <Col>
+            <h2>24.2</h2>
+          </Col>
+          <Col>
+            <p>Pub Virasto</p>
+            <p>Lahti</p>
+          </Col>
+        </Row>
+
+        <Row>
+          <Col>
+          <h2>25.2</h2>
+          </Col>
+          <Col>
+            <p>Oranssi</p>
+            <p>Helsinki</p>
+          </Col>
+        </Row>
+
+        <Row>
+          <Col>
+          <h2>03.3</h2>
+
+          </Col>
+          <Col>
+            <p>Kaivuri</p>
+            <p>Kuopio</p>
+          </Col>
+        </Row>
+
+        <Row>
+          <Col>
+          <h2>04.3</h2>
+          </Col>
+          <Col>
+            <p>Tuba</p>
+            <p>Oulu</p>
+          </Col>
+        </Row>
+        <Row className="info">
+        <Col xs={12} lg={6}>
+
+        </Col>
+
+
+        </Row>
       </Container>
         <div className="footer">
-          <h2 style={{color: 'black'}}>Web design & development by
+          <h1 style={{color: 'black'}}>Yhteystiedot</h1>
+          <p style={{color: 'black'}}>inkelauni@gmail.com</p>
+          <Social/>
+          <h3 style={{color: 'black'}}>Web design & development by
           <a className="link" href={pedroSite}
-          target="_blank" rel="noreferrer" style={{color: 'black'}}> Bergamo Creations</a></h2>
+          target="_blank" rel="noreferrer" style={{color: 'black'}}> Bergamo Creations</a></h3>
         </div>
 
   </div>

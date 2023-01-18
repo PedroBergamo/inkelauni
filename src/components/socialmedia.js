@@ -7,9 +7,10 @@ const navObj = {
         fontSize: '1.4em'
     },
     linkStyle: {
-      color: "#FFFFFF",
+      color: "#000000",
       textAlign: "right",
-      display: "flex"
+      display: "flex",
+      padding: "1rem"
     }
 };
 
