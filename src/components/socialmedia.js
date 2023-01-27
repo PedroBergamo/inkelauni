@@ -1,6 +1,5 @@
 import React from 'react';
 import { Nav } from 'react-bootstrap';
-import "../index.css";
 
 const navObj = {
     brandStyle: {
@@ -17,7 +16,7 @@ const navObj = {
 export default class SocialMedia extends React.Component {
     render() {
         return (
-          <div className="social-media">
+          <div>
           <Nav className="Nav">
           <Nav.Link
               href="https://www.instagram.com/inkelauni"

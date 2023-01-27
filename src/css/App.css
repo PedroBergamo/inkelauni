@@ -10,7 +10,7 @@ html, body {
 
 @font-face {
   font-family: "kaoly";
-  src: url(./assets/Kaoly-Regular.ttf);
+  src: url("../assets/Kaoly-Regular.ttf");
 }
 .container{
   padding: 2%;
@@ -40,7 +40,7 @@ h3{
 .App {
   text-align: center;
   background-color: black;
-  background-image: url("./images/virta-background.jpg");
+  background-image: url("../images/virta-background.jpg");
   background-position: center;
   background-size:cover;
 }
@@ -65,14 +65,6 @@ p{
   color: #ffffff;
 }
 
-.footer{
-  background-image: url("./images/virta-background-white.jpg");
-  background-size: cover;
-  text-align: center;
-  padding: 5% 10%;
-  color: white;
-}
-
 .footer p,h2,.link{
   text-align: center;
   padding: 2%;
@@ -87,15 +79,7 @@ p{
   color: white;
 }
 
-.keikat p{
-  text-align: center;
-  margin: 0;
-  padding: 0;
-}
 
-.keikat .row{
-  padding: 1rem;
-}
 
 .App-header {
   min-height: 100vh;
@@ -121,7 +105,7 @@ p{
 }
 
 .splash-video{
-  background-image: url("./Resources/virta-splash.jpg");
+  background-image: url("../Resources/virta-splash.jpg");
   background-position: center;
   width: 100%;
   height: 1000px;
@@ -164,11 +148,6 @@ button:hover{
   margin-bottom: -20%;
 }
 
-.spotify{
-  display: flex;
-  bottom: 0;
-  border-radius:12px;
-}
 @media screen and (-webkit-min-device-pixel-ratio:0) {
     .main-content {
         flex: 1;

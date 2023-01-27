@@ -1,13 +1,14 @@
 import inke2 from './images/inke-1-opt.jpg';
 import inkeBig from './images/inke-1-opt.jpg';
-import './App.css';
+import './css/App.css';
 import {Container, Row,Col} from 'react-bootstrap';
 import SplashVideo from "./Resources/splash-video.mp4";
-import Social from "./components/socialmedia.js";
+import Footer from "./components/Footer.js"
+
+import Gigs from "./components/gigs.js"
 import Logo from "./Resources/logo.svg";
 
 import virta from "./images/virta-logo.png";
-var pedroSite = "https://bergamocreations.com/";
 var VirtaVideo = "https://www.youtube.com/watch?v=WcmWrsbxXYA";
 
 function App() {
@@ -31,52 +32,7 @@ function App() {
       </div>
 
       <Container className="container">
-        <div className="keikat">
-        <h1>Keikat</h1>
-        <Row>
-          <Col>
-            <h2>24.2</h2>
-          </Col>
-          <Col>
-            <p>Pub Virasto</p>
-            <p>Lahti</p>
-          </Col>
-        </Row>
-
-        <Row>
-          <Col>
-          <h2>25.2</h2>
-          </Col>
-          <Col>
-            <p>Oranssi</p>
-            <p>Helsinki</p>
-          </Col>
-        </Row>
-
-        <Row>
-          <Col>
-          <h2>03.3</h2>
-
-          </Col>
-          <Col>
-            <p>Kaivuri</p>
-            <p>Kuopio</p>
-          </Col>
-        </Row>
-
-        <Row>
-          <Col>
-          <h2>04.3</h2>
-          </Col>
-          <Col>
-            <p>Tuba</p>
-            <p>Oulu</p>
-          </Col>
-        </Row>
-        <Row className="info">
-        </Row>
-
-        </div>
+      <Gigs/>
         <Row>
         <Col xs={12} lg={8} className="col">
         <div className='about'>
@@ -105,29 +61,7 @@ function App() {
         </Col>
         </Row>
       </Container>
-
-        <Container className="footer">
-          <Row>
-          <Col>
-          <h2 style={{color: 'black'}}>Tiedotus ja haastattelupyynnöt:</h2>
-          <p style={{textAlign: 'center'}}>
-            Juha Juoni / PressHopper<br/>
-            juha.juoni@presshopper.fi<br/>
-            www.presshopper.fi<br/>
-          </p>
-          </Col>
-          <Col>
-          <h2 style={{color: 'black'}}>Yhteystiedot</h2>
-          <h3 style={{color: 'black'}}>inkelauni@gmail.com</h3>
-          <Social/>
-
-          <p style={{color: 'black'}}>©️ 2023 Inke Launi | Suunnitellut ja kehittänyt
-          <a className="link" href={pedroSite}
-          target="_blank" rel="noreferrer" style={{color: 'black'}}>Bergamo Creations</a></p>
-          </Col>
-      </Row>
-
-        </Container>
+      <Footer/>
   </div>
   );
 }
