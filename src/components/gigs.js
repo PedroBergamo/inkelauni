@@ -7,7 +7,6 @@ export default class Gigs extends React.Component {
       return(
         <div className="keikat">
         <h1>Keikat</h1>
-
         <Row>
           <Col>
             <h2>24.2</h2>

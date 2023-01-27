@@ -24,14 +24,12 @@ h2{
   font-family: "kaoly";
   font-size: 24px;
   color: #ffffff;
-  padding: 1rem;
 }
 
 h3{
   font-family: "kaoly";
   font-size: 16px;
   color: #ffffff;
-  padding: 1rem;
 }
 
 .App {
@@ -53,7 +51,7 @@ p{
   font-family: 'Ubuntu', sans-serif;
   line-height: 1.5;
   color: #ffffff;
-  padding: 1rem;
+  padding: 0.7rem;
 }
 
 .link{
