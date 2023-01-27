@@ -10,7 +10,7 @@ export default class SocialMedia extends React.Component {
     <div className="footer">
       <Row>
       <Col>
-      <h2 style={{color: 'black'}}>Tiedotus ja haastattelupyynnöt:</h2>
+      <h2>Tiedotus ja haastattelupyynnöt:</h2>
       <p style={{textAlign: 'center'}}>
         Juha Juoni / PressHopper<br/>
         juha.juoni@presshopper.fi<br/>
@@ -18,13 +18,13 @@ export default class SocialMedia extends React.Component {
       </p>
       </Col>
       <Col>
-      <h2 style={{color: 'black'}}>Yhteystiedot</h2>
-      <h3 style={{color: 'black'}}>inkelauni@gmail.com</h3>
+      <h2 >Yhteystiedot</h2>
+      <h3>inkelauni@gmail.com</h3>
       <Social/>
 
-      <p style={{color: 'black'}}>©️ 2023 Inke Launi | Suunnitellut ja kehittänyt
+      <p>©️ 2023 Inke Launi | Suunnitellut ja kehittänyt
       <a className="link" href={pedroSite}
-      target="_blank" rel="noreferrer" style={{color: 'black'}}>Bergamo Creations</a></p>
+      target="_blank" rel="noreferrer"> Bergamo Creations</a></p>
       </Col>
       </Row>
     </div>

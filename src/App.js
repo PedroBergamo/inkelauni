@@ -1,7 +1,4 @@
-import inke2 from './images/inke-1-opt.jpg';
-import inkeBig from './images/inke-1-opt.jpg';
 import './css/App.css';
-import {Container, Row,Col} from 'react-bootstrap';
 import SplashVideo from "./Resources/splash-video.mp4";
 import Footer from "./components/Footer.js"
 import Bio from "./components/bio.js"
@@ -22,7 +19,7 @@ function App() {
         </video>
 
         <div className="logo">
-          <img src={Logo} width="50%" alt=""/>
+          <img src={Logo} width="300px" alt=""/>
         </div>
 
           <div className="video-button">
@@ -31,11 +28,11 @@ function App() {
               <button type="button">Katso nyt</button>  </a>
         </div>
       </div>
+      <div className="container">
+        <Gigs/>
+        <Bio/>
+      </div>
 
-      <Container className="container">
-      <Gigs/>
-      <Bio/>
-      </Container>
       <Footer/>
   </div>
   );
