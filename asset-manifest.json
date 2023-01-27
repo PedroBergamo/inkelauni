@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.478f5071.css",
+    "main.css": "/static/css/main.440e4e37.css",
     "main.js": "/static/js/main.07b92a28.js",
     "static/js/787.26acb5da.chunk.js": "/static/js/787.26acb5da.chunk.js",
     "static/media/splash-video.mp4": "/static/media/splash-video.445bf54bb77b54d10d84.mp4",
@@ -8,15 +8,15 @@
     "static/media/virta-splash.jpg": "/static/media/virta-splash.10bf9c2862d49d2573ad.jpg",
     "static/media/Kaoly-Regular.ttf": "/static/media/Kaoly-Regular.b3def33739cb4f041498.ttf",
     "static/media/virta-logo.png": "/static/media/virta-logo.e7587934a57baf96ae61.png",
-    "static/media/bg-1.jpg": "/static/media/bg-1.4c5a8e7d7ae21c489b5b.jpg",
+    "static/media/bg-2.jpg": "/static/media/bg-2.ad3f7e8a168c25060325.jpg",
     "static/media/logo.svg": "/static/media/logo.1901f16bc95b063b562d5e053160da91.svg",
     "index.html": "/index.html",
-    "main.478f5071.css.map": "/static/css/main.478f5071.css.map",
+    "main.440e4e37.css.map": "/static/css/main.440e4e37.css.map",
     "main.07b92a28.js.map": "/static/js/main.07b92a28.js.map",
     "787.26acb5da.chunk.js.map": "/static/js/787.26acb5da.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.478f5071.css",
+    "static/css/main.440e4e37.css",
     "static/js/main.07b92a28.js"
   ]
 }
