@@ -24,3 +24,39 @@
 .keikat .row{
   padding: 1rem;
 }
+
+.video-container{
+  background-image: url("../Resources/virta-splash.jpg");
+  width: 100%;
+  height: 100vh;
+ overflow: auto;
+
+  position: relative;
+  object-fit: cover;
+  justify-content: center;
+  align-items: center;
+  display:flex;
+  margin: auto;
+  vertical-align: middle;
+}
+
+.splash-video{
+  background-image: url("../Resources/virta-splash.jpg");
+  background-position: center;
+  width: 100%;
+  height: auto;
+
+  position: relative;
+  object-fit: cover;
+  justify-content: center;
+  align-items: center;
+  display:flex;
+  margin: auto;
+  vertical-align: middle;
+}
+
+.video-button {
+  position: absolute;
+  text-align: center;
+  margin-bottom: -20%;
+}
