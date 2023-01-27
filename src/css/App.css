@@ -40,9 +40,8 @@ h3{
 .App {
   text-align: center;
   background-color: black;
-  background-image: url("../images/virta-background.jpg");
-  background-position: center;
-  background-size:cover;
+  background-image: url("../images/bg-1.jpg");
+  background-repeat: repeat;
 }
 
 .logo {
