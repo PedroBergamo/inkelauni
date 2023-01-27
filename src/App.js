@@ -8,7 +8,7 @@ import Logo from "./Resources/logo.svg";
 
 import virta from "./images/virta-logo.png";
 var pedroSite = "https://bergamocreations.com/";
-var YouTube = "https://www.youtube.com/watch?v=519_RdUYz_A";
+var VirtaVideo = "https://www.youtube.com/watch?v=WcmWrsbxXYA";
 
 function App() {
   return (
@@ -25,7 +25,7 @@ function App() {
 
           <div className="video-button">
           <img src={virta} width="50%" alt=""/>
-              <a href={YouTube} target= "_blank" rel="noreferrer">
+              <a href={VirtaVideo} target= "_blank" rel="noreferrer">
               <button type="button">Katso nyt</button>  </a>
         </div>
       </div>
