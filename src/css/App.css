@@ -79,8 +79,6 @@ p{
   color: white;
 }
 
-
-
 .App-header {
   min-height: 100vh;
   display: flex;
@@ -89,10 +87,6 @@ p{
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
-
-.about{
-  margin: 5% 10%;
 }
 
 .App-link {
