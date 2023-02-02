@@ -1,8 +1,8 @@
 import React from "react"
 import "../css/components.css"
 
-import SplashVideo from "../Resources/splash-video.mp4";
-import Logo from "../Resources/logo.svg";
+import SplashVideo from "../resources/splash-video.mp4";
+import Logo from "../resources/logo.svg";
 
 import virta from "../images/virta-logo.png";
 var VirtaVideo = "https://www.youtube.com/watch?v=WcmWrsbxXYA";
