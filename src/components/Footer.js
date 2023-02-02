@@ -10,14 +10,6 @@ export default class SocialMedia extends React.Component {
     <div className="footer">
       <Row>
       <Col>
-      <h2>Tiedotus ja haastattelupyynnöt:</h2>
-      <p style={{textAlign: 'center'}}>
-        Juha Juoni / PressHopper<br/>
-        juha.juoni@presshopper.fi<br/>
-        www.presshopper.fi<br/>
-      </p>
-      </Col>
-      <Col>
       <h2 >Yhteystiedot</h2>
       <h3>inkelauni@gmail.com</h3>
       <Social/>
