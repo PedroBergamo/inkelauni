@@ -94,8 +94,8 @@ button {
   text-align: center;
   font-size: 14px;
   text-transform: uppercase;
-  padding: 10px;
-  width: 110px;
+  padding: 1rem;
+  width: 120px;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   -o-transition: all 0.5s;
@@ -106,7 +106,8 @@ button {
 }
 
 button:hover{
-  background-color: var(--launi_blue);
+  background-color: white;
+  color: black;
 }
 
 @media screen and (-webkit-min-device-pixel-ratio:0) {

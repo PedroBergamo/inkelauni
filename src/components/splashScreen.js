@@ -22,7 +22,7 @@ export default class SlashScreen extends React.Component{
           <div className="video-button">
           <img src={virta} width="50%" alt=""/>
               <a href={VirtaVideo} target= "_blank" rel="noreferrer">
-              <button type="button">Katso nyt</button>  </a>
+              <button type="button">Katso</button>  </a>
         </div>
       </div>
     );
