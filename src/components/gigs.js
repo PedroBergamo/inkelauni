@@ -2,7 +2,7 @@ import React from "react"
 import {Row,Col} from 'react-bootstrap';
 import "../css/components.css";
 
-import Elina from "../images/Elina-2.jpg"
+import Elina from "../images/Elina.jpg"
 var Ticket1 = "https://www.eventbrite.com/e/inke-launi-at-oranssi-klubi-rebekka-holi-and-auringonliitto-tickets-530678061367"
 var Tuba = "https://www.tiketti.fi/inke-launi-tuba-food-lounge-oulu-lippuja/87929?fbclid=IwAR1yPTIOAUVzUrp7Yz61jl17A0PP9Sczt1l65WQVEFkKuJFOlfIASPjBXHo"
 var Events = "https://www.facebook.com/inkelauni/events"

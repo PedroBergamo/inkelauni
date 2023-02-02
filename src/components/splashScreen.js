@@ -1,7 +1,7 @@
 import React from "react"
 import "../css/components.css"
 
-import SplashVideo from "../resources/splash-video.mp4";
+import SplashVideo from "../resources/splash-video-2.mp4";
 import Logo from "../resources/logo.svg";
 
 import virta from "../images/virta-logo.png";
