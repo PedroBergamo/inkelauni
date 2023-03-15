@@ -109,9 +109,3 @@ button:hover{
   background-color: white;
   color: black;
 }
-
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-    .main-content {
-        flex: 1;
-    }
-}
