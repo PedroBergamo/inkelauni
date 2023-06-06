@@ -31,7 +31,7 @@ export default class Gigs extends React.Component {
 
         <Row>
           <Col className="date">
-          <h2>25.7.2023</h2>
+          <h2>27.7.2023</h2>
           <div>
             <p className="text-left">Hönö</p>
             <p className="text-left">Tampere</p>
