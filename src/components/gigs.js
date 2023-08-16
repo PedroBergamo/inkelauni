@@ -9,44 +9,7 @@ export default class Gigs extends React.Component {
         <div className="keikat">
         <h1>Keikat</h1>
 
-        <Row>
-          <Col className="date">
-          <h2>29.6.2023</h2>
-          <div>
-            <p className="text-left">Lepakkomies</p>
-            <p className="text-left">Helsinki</p>
-          </div>
-          </Col>
 
-        </Row>
-        <Row>
-          <Col className="date">
-          <h2>26.7.2023</h2>
-          <div>
-            <p className="text-left">Poppari</p>
-            <p className="text-left">Jyväskylä</p>
-          </div>
-          </Col>
-        </Row>
-
-        <Row>
-          <Col className="date">
-          <h2>27.7.2023</h2>
-          <div>
-            <p className="text-left">Hönö</p>
-            <p className="text-left">Tampere</p>
-          </div>
-          </Col>
-        </Row>
-        <Row>
-          <Col className="date">
-          <h2>28.7.2023</h2>
-          <div>
-            <p className="text-left">Hard Rock House</p>
-            <p className="text-left">Helsinki</p>
-          </div>
-          </Col>
-        </Row>
         <Row>
           <Col className="date">
           <h2>25.8.2023</h2>
@@ -89,7 +52,44 @@ export default class Gigs extends React.Component {
                 </Col>
                   */}
                 </Row>
+                <Row>
+                  <Col className="date">
+                  <h2>29.6.2023</h2>
+                  <div>
+                    <p className="text-left">Lepakkomies</p>
+                    <p className="text-left">Helsinki</p>
+                  </div>
+                  </Col>
 
+                </Row>
+                <Row>
+                  <Col className="date">
+                  <h2>26.7.2023</h2>
+                  <div>
+                    <p className="text-left">Poppari</p>
+                    <p className="text-left">Jyväskylä</p>
+                  </div>
+                  </Col>
+                </Row>
+
+                <Row>
+                  <Col className="date">
+                  <h2>27.7.2023</h2>
+                  <div>
+                    <p className="text-left">Hönö</p>
+                    <p className="text-left">Tampere</p>
+                  </div>
+                  </Col>
+                </Row>
+                <Row>
+                  <Col className="date">
+                  <h2>28.7.2023</h2>
+                  <div>
+                    <p className="text-left">Hard Rock House</p>
+                    <p className="text-left">Helsinki</p>
+                  </div>
+                  </Col>
+                </Row>
 
 
                 <Row>
