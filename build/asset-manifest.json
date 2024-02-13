@@ -1,22 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.9e1b1197.css",
-    "main.js": "/static/js/main.28102d39.js",
+    "main.css": "/static/css/main.482679dd.css",
+    "main.js": "/static/js/main.596a7155.js",
     "static/js/787.26acb5da.chunk.js": "/static/js/787.26acb5da.chunk.js",
-    "static/media/splash-video-2.mp4": "/static/media/splash-video-2.65d5d2ad5edb7516ee10.mp4",
+    "static/media/I-Flower.svg": "/static/media/I-Flower.bde22a3044594c5e63b32cc162ab891a.svg",
     "static/media/Kaoly-Regular.ttf": "/static/media/Kaoly-Regular.b3def33739cb4f041498.ttf",
-    "static/media/inke-launi.jpg": "/static/media/inke-launi.9c322603b0dfcd077de2.jpg",
-    "static/media/virta-logo.png": "/static/media/virta-logo.e7587934a57baf96ae61.png",
+    "static/media/Flower-inverse.png": "/static/media/Flower-inverse.fd6b1b85145f0e215227.png",
     "static/media/splash.jpg": "/static/media/splash.6216f903b402ac255a62.jpg",
     "static/media/bg-2.jpg": "/static/media/bg-2.ad3f7e8a168c25060325.jpg",
-    "static/media/logo.svg": "/static/media/logo.1901f16bc95b063b562d5e053160da91.svg",
     "index.html": "/index.html",
-    "main.9e1b1197.css.map": "/static/css/main.9e1b1197.css.map",
-    "main.28102d39.js.map": "/static/js/main.28102d39.js.map",
+    "main.482679dd.css.map": "/static/css/main.482679dd.css.map",
+    "main.596a7155.js.map": "/static/js/main.596a7155.js.map",
     "787.26acb5da.chunk.js.map": "/static/js/787.26acb5da.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9e1b1197.css",
-    "static/js/main.28102d39.js"
+    "static/css/main.482679dd.css",
+    "static/js/main.596a7155.js"
   ]
 }
